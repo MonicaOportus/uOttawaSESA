@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titleSection {
+  background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutSection {
+  background-image: url("./images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-image: url("./images/background3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.myHover:hover {
+  background-color: underline;
+}
+
+@layer components {.navItem {
+  @apply hover:underline px-[25px] text-[18px]
+  }
+}
