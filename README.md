@@ -1,4 +1,5 @@
 # uOttawaSESA: https://swesa.netlify.app/
+## Figma Wireframe: https://www.figma.com/file/qwST8uXu5x05jqDQ47PmiL/SESA-Home-Designs?node-id=5%3A4
 
 Still waiting for the DNS to change the domain to something less Netlify
 
