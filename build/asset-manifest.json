@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe35396c.css",
+    "main.js": "/static/js/main.0ba01eda.js",
+    "static/media/fatimah.jpeg": "/static/media/fatimah.e0c64461e624fea031fa.jpeg",
+    "static/media/background2.png": "/static/media/background2.48f19d22285718defe88.png",
+    "static/media/demian.jpeg": "/static/media/demian.616c64abe4db52f8e221.jpeg",
+    "static/media/alexander.jpeg": "/static/media/alexander.66737eb9bd0a70ecf363.jpeg",
+    "static/media/victoria.png": "/static/media/victoria.33247603945b6dfd171b.png",
+    "static/media/emma.png": "/static/media/emma.4c5d9fb1b5697f55ed4b.png",
+    "static/media/omar.png": "/static/media/omar.89ce6a0087e210c755b7.png",
+    "static/media/ibrahim.png": "/static/media/ibrahim.84f81c7b6d9e19f5d958.png",
+    "static/media/harieshan.jpeg": "/static/media/harieshan.564837412dff124cc5c2.jpeg",
+    "static/media/background3.png": "/static/media/background3.1bb449a2717c92997643.png",
+    "static/media/background.jpeg": "/static/media/background.b2361afd36fa2faa8afa.jpeg",
+    "static/media/logo.png": "/static/media/logo.dc06f1167afbfbe0b7cf.png",
+    "static/media/rabih.jpeg": "/static/media/rabih.dba71d8cd2dd0eb72f84.jpeg",
+    "static/media/philippe.jpeg": "/static/media/philippe.7394c388b6f4e92a74f2.jpeg",
+    "static/media/jasmine.jpeg": "/static/media/jasmine.1b4ba4c95206b8a06309.jpeg",
+    "index.html": "/index.html",
+    "main.fe35396c.css.map": "/static/css/main.fe35396c.css.map",
+    "main.0ba01eda.js.map": "/static/js/main.0ba01eda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe35396c.css",
+    "static/js/main.0ba01eda.js"
+  ]
+}

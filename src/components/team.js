@@ -13,9 +13,9 @@ function Team(props) {
         alt="member"
         className="mx-auto mb-[10px] w-[130px] h-[130px] object-cover rounded-full border-2"
       />
-      <p>{props.name}</p>
-      <p>{props.position}</p>
-      <p>{props.email}</p>
+      <p className="text-[18px]">{props.name}</p>
+      <p className="text-[15px] uppercase">{props.position}</p>
+      <p className="text-[15px]">{props.email}</p>
       <div className="flex gap-3 justify-center pt-[10px]">
         <a
           target="_blank"

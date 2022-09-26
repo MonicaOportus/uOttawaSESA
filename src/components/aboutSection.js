@@ -25,7 +25,7 @@ function AboutSection() {
         className="pt-[50px] lg:pt-[93px]"
       >
         <p className="font-bold">Our services include:</p>
-        <ul className="list-disc pl-[35px]">
+        <ul>
           <li>
             Professional development workshops and networking events for
             students

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Poppins";
+}
+
 .titleSection {
   background-image: url("./images/background.jpeg");
   background-repeat: no-repeat;
@@ -14,18 +18,20 @@
   background-size: cover;
 }
 
-.footer {
+.contact {
   background-image: url("./images/background3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-body {
-  font-family: "Poppins";
-}
-
 .myHover:hover {
   background-color: underline;
+}
+
+li {
+  border-left: solid 2px white;
+  margin-top: 15px;
+  padding: 3px 10px;
 }
 
 @layer components {.navItem {

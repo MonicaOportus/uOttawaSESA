@@ -8,6 +8,7 @@ import AboutSection from "../components/aboutSection";
 import Team from "../components/team";
 import teamInfo from "../components/teamInfo";
 import TeamTitle from "../components/teamTitle";
+import Contact from "../components/contact";
 import Footer from "../components/footer";
 
 function Home() {
@@ -22,11 +23,11 @@ function Home() {
         <div className="pb-[100px] text-center">{eventInfo.map(Events)}</div>{" "}
       </div>
       <AboutSection />
-
       <TeamTitle />
-
-      <div className="text-center">{teamInfo.map(Team)}</div>
-
+      <div className="text-center mx-[45px] md:mx-[70px] xl:mx-[160px]">
+        {teamInfo.map(Team)}
+      </div>
+      <Contact/>
       <Footer />
     </div>
   );
