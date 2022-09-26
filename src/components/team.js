@@ -17,30 +17,38 @@ function Team(props) {
       <p className="text-[15px] uppercase">{props.position}</p>
       <p className="text-[15px]">{props.email}</p>
       <div className="flex gap-3 justify-center pt-[10px]">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={`mailto:${props.email}`}
-          className="hover:scale-[1.07]"
-        >
-          <i className="fa-lg fa-regular fa-envelope"></i>
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={`${props.linkedIn}`}
-          className="hover:scale-[1.07]"
-        >
-          <i className="fa-lg fa-brands fa-linkedin"></i>
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={`${props.instagram}`}
-          className="hover:scale-[1.07]"
-        >
-          <i className="fa-lg fa-brands fa-instagram"></i>
-        </a>
+        {props.email ? (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={`mailto:${props.email}`}
+            className="hover:scale-[1.07]"
+          >
+            <i className="fa-lg fa-regular fa-envelope"></i>
+          </a>
+        ) : null}
+
+        {props.linkedIn ? (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={`${props.linkedIn}`}
+            className="hover:scale-[1.07]"
+          >
+            <i className="fa-lg fa-brands fa-linkedin"></i>
+          </a>
+        ) : null}
+
+        {props.instagram ? (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={`${props.instagram}`}
+            className="hover:scale-[1.07]"
+          >
+            <i className="fa-lg fa-brands fa-instagram"></i>
+          </a>
+        ) : null}
       </div>
     </div>
   );

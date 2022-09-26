@@ -4,7 +4,7 @@ function AboutSection() {
       className="aboutSection font-medium text-[22px] py-[70px] px-[40px] text-white md:pl-[110px] xl:pr-[200px] 
             lg:grid lg:grid-cols-2 lg:gap-24 xl:pl-[210px]"
     >
-      <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+      <div data-aos="fade-right" data-aos-duration="500" data-aos-delay="200">
         <h2 className="text-[48px] font-bold">What is SESA?</h2>
 
         <p className="font-bold py-[20px]">
