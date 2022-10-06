@@ -15,7 +15,7 @@ function TitleSection() {
         // data-aos-once="false"
         // data-aos-anchor-placement="top-center"
       >
-        <div className="text-[20px] font-semibold px-[25px] md:pl-[90px] md:pr-[110px] lg:text-[22px] lg:pr-[180px] xl:pl-[190px] xl:pr-[220px]">
+        <div className="text-[20px] ml-5 md:ml-0 text-start font-semibold px-[25px] md:pl-[90px] md:pr-[110px] lg:text-[22px] lg:pr-[180px] xl:pl-[190px] xl:pr-[220px] ">
           <p className="pb-[25px]">
             For the first time in two and a half years, your Software
             Engineering Students Association is back in action!
