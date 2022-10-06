@@ -16,7 +16,7 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/demianoportus/"
-          className=" hover:scale-[1.05] text-[#636363] "
+          className=" hover:scale-[1.05] text-[#9d9d9d] "
         >
           Made by Demian
         </a>
