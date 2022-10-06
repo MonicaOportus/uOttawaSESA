@@ -1,7 +1,7 @@
 function TitleSection() {
   return (
     <div className="titleSection text-white text-center h-[460px] pt-[45px] md:text-left md:pl-[110px] xl:pl-[210px] xl:pt-[95px]">
-      <h1 className="uppercase pb-[15px] font-bold text-[40px] md:pb-[40px] md:text-[70px]">
+      <h1 className="uppercase pb-[15px] font-bold md:pb-[40px] text-[70px]">
         We're back.
       </h1>
       <div

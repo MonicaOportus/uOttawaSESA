@@ -11,7 +11,7 @@ function Team(props) {
       <img
         src={props.img}
         alt="member"
-        className="mx-auto mb-[10px] w-[130px] h-[130px] object-cover rounded-full border-2"
+        className="mx-auto mb-[10px] w-[140px] h-[140px] object-cover rounded-full border-2"
       />
       <p className="text-[18px]">{props.name}</p>
       <p className="text-[15px] uppercase">{props.position}</p>
