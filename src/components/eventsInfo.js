@@ -1,7 +1,7 @@
 const eventInfo = [
   {
     id: 1,
-    date: "October 10th, 2022",
+    date: "October 20th, 2022",
     title: "Ciena Social",
     location: "STEM building #117 @ 6 to 8pm",
     invitation:
