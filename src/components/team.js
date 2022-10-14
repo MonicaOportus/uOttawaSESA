@@ -7,6 +7,7 @@ function Team(props) {
       data-aos-duration="1000"
       data-aos-delay="200"
       className={`${props.color} inline-block text-center text-white rounded-2xl w-[230px] h-[285px] pt-[15px] m-[15px]`}
+      key={props.id}
     >
       <img
         src={props.img}
