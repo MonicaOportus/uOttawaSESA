@@ -11,11 +11,10 @@ const eventInfo = [
 
   {
     id: 2,
-    date: "September 28st, 2022",
-    title: "Meet and greet",
-    location: "Morisset 250 uOttawa @ 7:30 pm",
-    invitation:
-      "Come meet your fellow software engineering students and get to know the SESA execs! This is a great opportunity to get involved with the association and learn about what we do. We'll be announcing more details soon, so stay tuned!",
+    date: "",
+    title: "",
+    location: "More events are coming!",
+    invitation: "Follow us on social media for updates: ",
     instaLink: "https://www.instagram.com/p/CitT3EIOVLD/?hl=en",
   },
 
@@ -24,10 +23,9 @@ const eventInfo = [
     date: "",
     title: "",
     location: "More events are coming!",
-    invitation:
-      "Follow us on social media for updates: ",
+    invitation: "Follow us on social media for updates: ",
     instaLink: "https://www.instagram.com/p/CitT3EIOVLD/?hl=en",
-  }
+  },
 ];
 
 export default eventInfo;

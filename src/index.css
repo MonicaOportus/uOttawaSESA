@@ -4,6 +4,14 @@
 
 body {
   font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
 }
 
 .titleSection {
@@ -34,7 +42,8 @@ li {
   padding: 3px 10px;
 }
 
-@layer components {.navItem {
-  @apply hover:underline px-[25px] text-[18px]
+@layer components {
+  .navItem {
+    @apply hover:underline px-[25px] text-[18px];
   }
 }
