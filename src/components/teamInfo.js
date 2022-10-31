@@ -57,7 +57,7 @@ const teamInfo = [
     name: "Fatimah Vakily",
     position: "Event coordinator",
     email: "fvaki076@uottawa.ca",
-    linkedIn: null, // NULL REQUIRED IF NO EMAIL OR LINKEDIN OR INSTAGRAM
+    linkedIn: "https://www.linkedin.com/in/fatimah-vakily-7a9415197/",
     instagram: "https://www.instagram.com/fatimbit_v/",
     color: "bg-[#8824DC]",
   },

@@ -4,8 +4,10 @@ function Events(props) {
   return (
     <div
       id="events"
-      // this following line of code is to center vertically the placeholder events (aka, those without date)
-      className={`${!props.date ? "h-[150px] pt-[50px] pb-[250px]" : null} 
+      // This following line of code is to center vertically the placeholder events (aka, those without date)
+      // This is the only possible way of targetting the height of the empty event placeholders' height
+      className={`${!props.date ? "h-[150px] pt-[50px] pb-[250px]" : null}
+       
       inline-block align-middle mb-[50px] w-[300px] h-[300px] border-l-2 border-black pl-[20px] py-[10px] mx-[20px] text-left`}
       key={props.id}
     >
@@ -14,17 +16,22 @@ function Events(props) {
       </p>
       <h3 className="pb-[7px] font-medium text-[24px]">{props.title}</h3>
       <h6 className="pb-[15px] font-semibold text-[16px]">{props.location}</h6>
+      {/* following line 
+      if (it exceeds 139 char) cuts the event description 
+          so that all texts are similar lengths/block height in all events*/}
       <p className="pb-[20px] font-medium text-14px">
         {props.invitation.length > 139
           ? props.invitation.substring(0, 139) + "..."
           : props.invitation}
       </p>
+
+      {/* Targetting the empty event placeholders' to add icons and make them different to actual event holders */}
       {!props.date ? (
         <div className="flex gap-4 mr-[15px] md:mr-[100px] lg:mr-[200px] mb-[10px]">
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.instagram.com/uottawasesa/"
+            href="https://www.instagram.com/oportuuus/"
             className="hover:scale-[1.05]"
           >
             <i className="fa-xl fa-brands fa-instagram"></i>
@@ -32,7 +39,7 @@ function Events(props) {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/company/software-engineering-student-association/"
+            href="https://www.linkedin.com/in/demianoportus/"
             className="hover:scale-[1.05]"
           >
             <i className="fa-xl fa-brands fa-linkedin"></i>
@@ -66,7 +73,7 @@ function Events(props) {
       <a
         rel="noreferrer noopener"
         target="_blank"
-        href={props.instaLink}
+        href="https://www.linkedin.com/in/demianoportus/"
         className="inline-block text-[#6480DB] hover:underline"
       >
         Learn more &nbsp; &#10132;
