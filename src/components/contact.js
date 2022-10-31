@@ -64,7 +64,7 @@ function Contact() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="/"
+            href="https://github.com/DemianOportus/SESA"
             className="hover:scale-[1.05]"
           >
             <i className="fa-xl fa-brands fa-github"></i>
