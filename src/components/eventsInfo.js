@@ -1,12 +1,12 @@
 const eventInfo = [
   {
     id: 1,
-    date: "October 20th, 2022",
-    title: "Ciena Social",
-    location: "STEM building #117 @ 6 to 8pm",
+    date: "February, 2023",
+    title: "Hackathon with Hack the Hill",
+    location: "TBD",
     invitation:
-      "Find your new grad/CO-OP job at Ciena! Network with representatives from their company, and learn more about the company's projects. Register",
-    instaLink: "https://www.eventbrite.com/e/ciena-social-tickets-427567384557",
+      "The uOttawa Engineering Student Society, IEEE uOttawa Student Branch, Computer Science Student Association and Software Engineering Student Association are proud to bring a flagship hackathon to Ottawa where students can network and compete with the best!",
+    instaLink: "https://www.instagram.com/p/CkYl9sOuUe3/?hl=en",
   },
 
   {

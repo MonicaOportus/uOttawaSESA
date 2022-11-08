@@ -9,6 +9,7 @@ import ibrahim from "../images/ibrahim.png";
 import omar from "../images/omar.png";
 import emma from "../images/emma.png";
 import rabih from "../images/rabih.jpeg";
+import alikhreis from "../images/alikhreis.jpeg";
 
 const teamInfo = [
   {
@@ -102,16 +103,26 @@ const teamInfo = [
   },
   {
     id: 10,
+    img: alikhreis,
+    name: "Ali Khreis",
+    position: "Academic Coordinator",
+    email: "akhre083@uottawa.ca",
+    linkedIn: "www.linkedin.com/in/alikhreis",
+    instagram: null, // NULL REQUIRED IF NO EMAIL OR LINKEDIN OR INSTAGRAM
+    color: "bg-[#1529FF]",
+  },
+  {
+    id: 11,
     img: demian,
     name: "Demian Oportus",
     position: "Developer",
     email: "copor049@uottawa.ca",
     linkedIn: "https://www.linkedin.com/in/demianoportus/",
     instagram: "https://www.instagram.com/oportuuus/",
-    color: "bg-[#1529FF]",
+    color: "bg-[#FF6E30]",
   },
   {
-    id: 11,
+    id: 12,
     img: victoria,
     name: "Victoria Cimpu",
     position: "Developer",
