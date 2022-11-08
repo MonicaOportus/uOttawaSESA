@@ -10,6 +10,7 @@ import omar from "../images/omar.png";
 import emma from "../images/emma.png";
 import rabih from "../images/rabih.jpeg";
 import alikhreis from "../images/alikhreis.jpeg";
+import afrah from "../images/afrah.jpeg";
 
 const teamInfo = [
   {
@@ -50,7 +51,7 @@ const teamInfo = [
     email: "ayu041@uottawa.ca",
     linkedIn: "https://www.linkedin.com/in/alexanderkyu/",
     instagram: "https://www.instagram.com/alexander.yu_/",
-    color: "bg-[#FB1F47]",
+    color: "bg-[#FF6E30]",
   },
   {
     id: 5,
@@ -70,7 +71,7 @@ const teamInfo = [
     email: "jkokk054@uottawa.ca",
     linkedIn: "https://www.linkedin.com/in/jasminekokkat/",
     instagram: null, // NULL REQUIRED IF NO EMAIL OR LINKEDIN OR INSTAGRAM
-    color: "bg-[#FB1F47]",
+    color: "bg-[#1529FF]",
   },
   {
     id: 7,
@@ -99,7 +100,7 @@ const teamInfo = [
     email: "oaly042@uottawa.ca",
     linkedIn: "https://www.linkedin.com/in/omar-aly1/",
     instagram: null, // NULL REQUIRED IF NO EMAIL OR LINKEDIN OR INSTAGRAM
-    color: "bg-[#FF6E30]",
+    color: "bg-[#FB1F47]",
   },
   {
     id: 10,
@@ -113,16 +114,26 @@ const teamInfo = [
   },
   {
     id: 11,
+    img: afrah,
+    name: "Afrah Ali",
+    position: "Academic Coordinator",
+    email: "afrah412000@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/afrah-ali/",
+    instagram: null, // NULL REQUIRED IF NO EMAIL OR LINKEDIN OR INSTAGRAM
+    color: "bg-[#FB1F47]",
+  },
+  {
+    id: 12,
     img: demian,
     name: "Demian Oportus",
     position: "Developer",
     email: "copor049@uottawa.ca",
     linkedIn: "https://www.linkedin.com/in/demianoportus/",
     instagram: "https://www.instagram.com/oportuuus/",
-    color: "bg-[#FF6E30]",
+    color: "bg-[#8824DC]",
   },
   {
-    id: 12,
+    id: 13,
     img: victoria,
     name: "Victoria Cimpu",
     position: "Developer",
