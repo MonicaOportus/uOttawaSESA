@@ -73,7 +73,7 @@ function Events(props) {
       <a
         rel="noreferrer noopener"
         target="_blank"
-        href="https://www.instagram.com/uottawasesa/?hl=en"
+        href={props.instaLink}
         className="inline-block text-[#6480DB] hover:underline"
       >
         Learn more &nbsp; &#10132;
