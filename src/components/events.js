@@ -31,7 +31,7 @@ function Events(props) {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.instagram.com/oportuuus/"
+            href="https://www.instagram.com/uottawasesa/?hl=en"
             className="hover:scale-[1.05]"
           >
             <i className="fa-xl fa-brands fa-instagram"></i>
@@ -39,7 +39,7 @@ function Events(props) {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/demianoportus/"
+            href="https://www.instagram.com/uottawasesa/?hl=en"
             className="hover:scale-[1.05]"
           >
             <i className="fa-xl fa-brands fa-linkedin"></i>
@@ -73,7 +73,7 @@ function Events(props) {
       <a
         rel="noreferrer noopener"
         target="_blank"
-        href="https://www.linkedin.com/in/demianoportus/"
+        href="https://www.instagram.com/uottawasesa/?hl=en"
         className="inline-block text-[#6480DB] hover:underline"
       >
         Learn more &nbsp; &#10132;
