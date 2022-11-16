@@ -108,7 +108,7 @@ const teamInfo = [
     name: "Ali Khreis",
     position: "Academic Coordinator",
     email: "akhre083@uottawa.ca",
-    linkedIn: "www.linkedin.com/in/alikhreis",
+    linkedIn: "https://www.linkedin.com/in/alikhreis",
     instagram: null, // NULL REQUIRED IF NO EMAIL OR LINKEDIN OR INSTAGRAM
     color: "bg-[#1529FF]",
   },
