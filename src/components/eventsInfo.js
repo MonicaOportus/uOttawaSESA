@@ -15,7 +15,7 @@ const eventInfo = [
     location: "STM 117",
     invitation:
       "Following a super successful #ResumeRoast, Hack the Hill isn't skipping a beat! Join @hackthehill and @uottawacsclub for our highly anticipated #CoffeeCodeandCram",
-    instaLink: "https://www.instagram.com/p/CkYl9sOuUe3/?hl=en",
+    instaLink: "https://www.instagram.com/p/ClR3OdepPoA/?hl=en",
   },
   {
     id: 3,
