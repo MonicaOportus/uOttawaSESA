@@ -10,6 +10,15 @@ const eventInfo = [
   },
   {
     id: 2,
+    date: "Nov 30th, 7:00-9:00pm",
+    title: "Coffee, Code & Cram",
+    location: "STM 117",
+    invitation:
+      "Following a super successful #ResumeRoast, Hack the Hill isn't skipping a beat! Join @hackthehill and @uottawacsclub for our highly anticipated #CoffeeCodeandCram",
+    instaLink: "https://www.instagram.com/p/CkYl9sOuUe3/?hl=en",
+  },
+  {
+    id: 3,
     date: "February, 2023",
     title: "Hack the Hill",
     location: "TBD",
@@ -18,14 +27,14 @@ const eventInfo = [
     instaLink: "https://www.instagram.com/p/CkYl9sOuUe3/?hl=en",
   },
 
-  {
-    id: 3,
-    date: "",
-    title: "",
-    location: "More events are coming!",
-    invitation: "Follow us on social media for updates: ",
-    instaLink: "https://www.instagram.com/p/CitT3EIOVLD/?hl=en",
-  },
+  // {
+  //   id: 3,
+  //   date: "",
+  //   title: "",
+  //   location: "More events are coming!",
+  //   invitation: "Follow us on social media for updates: ",
+  //   instaLink: "https://www.instagram.com/p/CitT3EIOVLD/?hl=en",
+  // },
 ];
 
 export default eventInfo;
