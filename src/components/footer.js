@@ -11,7 +11,7 @@ function Footer() {
         uOttawa Software Engineering Students Association {thisYear} ©
       </p>
       <p className="underline">uottawa.sesa@gmail.com</p>
-      <p className="mt-8 text-sm">
+      {/* <p className="mt-8 text-sm">
         <a
           target="_blank"
           rel="noreferrer"
@@ -20,7 +20,7 @@ function Footer() {
         >
           Made by Demian
         </a>
-      </p>
+      </p> */}
     </div>
   );
 }
