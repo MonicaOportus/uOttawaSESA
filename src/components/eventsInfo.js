@@ -1,9 +1,9 @@
 const eventInfo = [
   {
     id: 1,
-    date: "February, 2023",
+    date: "3-5 February, 2023",
     title: "Hack the Hill",
-    location: "TBD",
+    location: "uOttawa Campus",
     invitation:
       "The uOttawa Engineering Student Society, IEEE uOttawa Student Branch, Computer Science Student Association and Software Engineering Student Association are proud to bring a flagship hackathon to Ottawa where students can network and compete with the best!",
     instaLink: "https://www.instagram.com/p/CkYl9sOuUe3/?hl=en",
